@@ -1,7 +1,7 @@
 # How to get certificates
 x509 certificates in the UK are provided by the [UK e-Science CA](https://portal.ca.grid-support.ac.uk/). There are different tools but for users the easiest is to go through the WEB portal. Ignore the other methods.
 
-During the process you will be asked to select your institution RA (Registration Authority). RA operators are the staff responsible to check your request is genuine. For Manchester there are historically two RA units, you should select the [Manchester HEP](https://portal.ca.grid-support.ac.uk/pub/viewRAs?ou=Manchester). Rather than emailing anyone specifically you should contact us the RA operators using the blackett-support@listserv.manchester.ac.uk so the request can be followed by who is available.
+During the process you will be asked to select your institution RA (Registration Authority). RA operators are the staff responsible to check your request is genuine. For Manchester there are historically two RA units, you should select the [Manchester HEP](https://portal.ca.grid-support.ac.uk/pub/viewRAs?ou=Manchester). Rather than emailing anyone specifically you should contact the RA operators using the blackett-support@listserv.manchester.ac.uk so the request can be followed by who is available.
 
 The proccess of requesting a certificate is a pre-requisite to register to a VO (Virtual Organisation) and is a **separate** procedure usually carried out by different set of administrators particularly for what concerns large VOs such as the LHC experiments. Occasionally, in Manchester the people are the same because we manage the [GridPP VOMS](https://voms.gridpp.ac.uk:8443/vomses) which supports a number of smaller groups.
 
