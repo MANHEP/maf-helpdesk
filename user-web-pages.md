@@ -17,7 +17,7 @@ To make a web page, the file needs to be in HTML format with file extension .htm
 
 If a file index.html exists in a directory, then that page is displayed to viewers when
 they view web URLs ending in slash. For example, ~/WWW/test1/index.html will be displayed
-when viewers go to https://users.hep.manchester.ac.uk/u/EXAMPLE/test/ 
+when viewers go to https://users.hep.manchester.ac.uk/u/EXAMPLE/test1/ 
 
 If no index.html file exists, then a directory listing of all files in that directory and 
 the names of any subdirectories is shown. This is a convenient way to publish sets of 
