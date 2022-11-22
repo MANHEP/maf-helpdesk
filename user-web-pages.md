@@ -21,7 +21,7 @@ when viewers go to https://users.hep.manchester.ac.uk/u/EXAMPLE/test1/
 
 If no index.html file exists, then a directory listing of all files in that directory and 
 the names of any subdirectories is shown. This is a convenient way to publish sets of 
-documents, but can allow welcome visitors to browse around and find things you don't want 
+documents, but can allow unwelcome visitors to browse around and find things you don't want 
 them to see.
 
 The AFS directories should be readable by the AFS www:webservers group. This can be checked
