@@ -26,7 +26,8 @@ them to see.
 
 The AFS directories should be readable by the AFS www:webservers group. This can be checked
 by going into the directory and executing the command fs listacl which should dislay a list 
-of permissions including   www:webservers rl
+of permissions including   www:webservers rl   Your top level home directory also needs l 
+(list) permission for www:webservers 
 
 It is not possible to enable users websites to run CGI scripts, PHP pages, and other forms of
-dynamic content. 
+server-side dynamic content. 
