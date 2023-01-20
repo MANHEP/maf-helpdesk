@@ -1,12 +1,14 @@
-The Noether Batch Cluster is available to members of the HEP Group for exploratory batch and interactive high-throughput computation.
+### Noether Batch Compute Cluster
+
+The Noether batch compute cluster is available to members of the HEP Group for exploratory batch and interactive high-throughput computation.
 
 The cluster presently consists of a login node and seven work-nodes. The work nodes have the following specification:
 
     16 cores, 64 GB main memory, 850 GB fast local stoage
     
-Home directories and per-lab data areas are available on shared network volumes each having a total initial capacity of 15TB.
+Home directories and per-lab data areas are available on two shared network volumes, each having a total initial capacity of 15TB.
 
-The cluster runs the htcondor batch scheduler. The system is presently in beta test. If it proves useful it will be expanded.
+The cluster runs the [HTCondor](https://htcondor.com) batch scheduler. The system is presently in beta test. If it proves useful it will be expanded.
 
 To get an account on noether please send an email to the BLACKETT-SUPPORT mailing list stating your lab affiliation.
 
@@ -19,9 +21,9 @@ $ ssh mrtest@noether.hep.manchester.ac.uk
 WARNING: Your password has expired.
 You must change your password now and login again!
 Changing password for user mrtest.
-Current Password: *******
-New password: ************
-Retype new password: ************
+Current Password: *******               # <---- enter your supplier password
+New password: ************              # <---- now choose a secure password
+Retype new password: ************       # <---- re-enter your secure password
 passwd: all authentication tokens updated successfully.
 Connection to noether.hep.manchester.ac.uk closed.
 ```
@@ -30,7 +32,7 @@ Then to access the cluster you must ssh in again:
 ```
 ssh mrtest@noether.hep.manchester.ac.uk
 mrtest@noether.hep.manchester.ac.uk's password: ************
-[mrtest@vm119 ~]$ 
+[mrtest@vm119 ~]$                       # <---- NB the login node's local name is vm117 -- this may change.
 ```
 
 
