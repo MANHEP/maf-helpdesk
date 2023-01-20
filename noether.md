@@ -43,11 +43,11 @@ Note that the login node of Noether is presently ```vm117``` -- this may change 
 
 Some brief notes and sample sessions -- this section will be expanded will fuller examples.
 
-# Batch jobs
+### Batch jobs
 
 We are accumulating a catalogue of sample jobs and submission scripts: there will be placed on GitHub in due course. For now, if you are unfamiliar with HTCondor batch job submission, please refer to [this guide](https://htcondor.readthedocs.io/en/latest/users-manual/quick-start-guide.html).
 
-# Interactive Sessions
+### Interactive Sessions
 
 Noether also supports interactive shell sessions on work nodes. Use of the login node for heavy computational work is prohibited: users are expected to conduct their interactive shell sessions on work-nodes that have been set aside for that purpose. It is also prohibited to directly ```ssh``` to the work-nodes: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
 
