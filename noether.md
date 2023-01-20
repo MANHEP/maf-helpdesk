@@ -1,6 +1,6 @@
-### Noether Batch Compute Cluster
+# Noether Batch Compute Cluster
 
-# What is Noether?
+## What is Noether?
 
 [Noether](https://jwa.org/encyclopedia/article/noether-emmy) is an experimental Linux cluster being made available to members of the HEP Group for exploratory batch and interactive high-throughput computation.
 
@@ -9,7 +9,7 @@ The cluster presently consists of a login node, job-scheduling nodes and seven w
 The cluster runs the [HTCondor](https://htcondor.com) batch scheduler. The system is presently in beta testing: if it proves useful it will be expanded.
 
 
-# Getting an Account and First Login
+## Getting an Account and First Login
 
 To get an account on Noether please send an email to the [BLACKETT-SUPPORT](mailto:BLACKETT-SUPPORT@listserv.manchester.ac.uk) mailing list stating your lab affiliation. You will then be supplied out-of-band with an initial set of login credentials. The username assigned will be the same as your existing HEP username, if you have one.
 
@@ -39,11 +39,17 @@ Next time you ```ssh``` in you will get a shell session on the Noether login nod
 
 Note that the login node of Noether is presently ```vm117``` -- this may change from time to time.
 
-# Using the Cluster.
+## Using the Cluster.
 
-Batch jobs: we are accumulating a catalogue of sample jobs and submission scripts: there will be placed on GitHub in due course. For now, if you are unfamiliar with HTCondor batch job submission, please refer to [this guide](https://htcondor.readthedocs.io/en/latest/users-manual/quick-start-guide.html).
+Some brief notes and sample sessions -- this section will be expanded will fuller examples.
 
-Interactive sessions: use of the login node for heavy computational work is prohibited: users are expected to conduct their interactive shell sessions on work-nodes that have been set aside for that purpose. It is also prohibited to directly ```ssh``` to the work-nodes: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
+# Batch jobs
+
+We are accumulating a catalogue of sample jobs and submission scripts: there will be placed on GitHub in due course. For now, if you are unfamiliar with HTCondor batch job submission, please refer to [this guide](https://htcondor.readthedocs.io/en/latest/users-manual/quick-start-guide.html).
+
+# Interactive Sessions
+
+Noether also supports interactive shell sessions on work nodes. Use of the login node for heavy computational work is prohibited: users are expected to conduct their interactive shell sessions on work-nodes that have been set aside for that purpose. It is also prohibited to directly ```ssh``` to the work-nodes: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
 
 ```
     $ condor_submit -i  getenv=True
