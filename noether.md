@@ -14,14 +14,14 @@ To get an account on Noether please send an email to the [BLACKETT-SUPPORT](mail
 
 You will be provided with an initial set of credentials out-of-band. The username assigned will be the same as your existing HEP username (if any).
 
-The password will need to be changed on your initial login as in the following example:
+To connect to the cluster please ```ssh``` to ```noether.hep.manchester.ac.uk```. The issued password will need to be changed on your initial login as in the following example:
 
 ```
 $ ssh mrtest@noether.hep.manchester.ac.uk
 WARNING: Your password has expired.
 You must change your password now and login again!
 Changing password for user mrtest.
-Current Password: *******               # <---- enter your supplier password
+Current Password: *******               # <---- enter the issued password
 New password: ************              # <---- now choose a secure password
 Retype new password: ************       # <---- re-enter your secure password
 passwd: all authentication tokens updated successfully.
@@ -35,4 +35,5 @@ mrtest@noether.hep.manchester.ac.uk's password: ************
 [mrtest@vm119 ~]$                       # <---- NB the login node's local name is vm117 -- this may change.
 ```
 
+Using the cluster: we are accumulating sample job scripts which will be placed on GitHub in due course. For now, if you are unfamiliar with HTCondor batch job submission, please refer to [this guide](https://htcondor.readthedocs.io/en/latest/users-manual/quick-start-guide.html).
 
