@@ -41,15 +41,14 @@ Note that the login node of Noether is presently ```vm117``` -- this may change 
 
 ## Using the Cluster.
 
-Some brief notes and sample sessions -- this section will be expanded will fuller examples.
-
+Some brief notes and sample sessions -- this section will be amplified in due course.
 ### Batch jobs
 
-We are accumulating a catalogue of sample jobs and submission scripts: there will be placed on GitHub in due course. For now, if you are unfamiliar with HTCondor batch job submission, please refer to [this guide](https://htcondor.readthedocs.io/en/latest/users-manual/quick-start-guide.html).
+We are accumulating a catalogue of sample jobs and submission scripts to be placed on GitHub. For now, if you are unfamiliar with HTCondor batch job submission, please refer to [this guide](https://htcondor.readthedocs.io/en/latest/users-manual/quick-start-guide.html).
 
 ### Interactive Sessions
 
-Noether also supports interactive shell sessions on work nodes. Use of the login node for heavy computational work is prohibited: users are expected to conduct their interactive shell sessions on work-nodes that have been set aside for that purpose. It is also prohibited to directly ```ssh``` to the work-nodes: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
+Noether also supports interactive shell sessions on work-nodes. Use of the login node for heavy computational work is *prohibited*: users are expected to conduct their interactive shell sessions on certain work-nodes that have been set aside for that purpose. It is also *prohibited* to directly ```ssh``` to any work-node: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
 
 ```
     $ condor_submit -i  getenv=True
@@ -59,7 +58,7 @@ Noether also supports interactive shell sessions on work nodes. Use of the login
     [mrtest@wn3801320 dir_394806]$ pwd
     /scratch/condor_pool/condor/dir_396312
 ```
-Here the shell session of user ```mrtest``` teleported to work-node ```wn3801320``` under the auspices of the HTCondor scheduler (hence the time limit). Note that the working directory ```getenv=True``` is *not* ```mrtest```'s home directory on Noether -- it is a scratch directory which is *local to the node*. Heavy IO work should be confined to this scratch directory. ```mrtest``` can access his cluster-wide home directory simply by issuing ```cd```:
+Here the shell session of user ```mrtest``` was teleported to work-node ```wn3801320``` *under the auspices of the HTCondor scheduler* (hence the time limit). Note that the working directory ```getenv=True``` is *not* ```mrtest```'s home directory on Noether! -- it is a *scratch directory* which is *local to the node*. Heavy IO work should be *confined to these local scratch directories*.  However, ```mrtest``` can easily access his *cluster-wide home directory* simply by issuing ```cd```as follows:
 
 ```
     [mrtest@wn3801320 dir_394806]$ cd
@@ -69,6 +68,6 @@ Here the shell session of user ```mrtest``` teleported to work-node ```wn3801320
     [mrtest@wn3801320 dir_394806]$
 ```
 
-It is thus necessary to copy critical code and data back one home or Lab directory before the interactive session terminates.
+It is thus necessary to *copy critical code and data back into one's home or Lab directory* before the interactive session terminates.
 
 
