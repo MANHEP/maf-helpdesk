@@ -4,14 +4,14 @@
 
 [Noether](https://jwa.org/encyclopedia/article/noether-emmy) is an experimental Linux cluster being made available to members of the HEP Group for exploratory batch and interactive high-throughput computation.
 
-The cluster presently consists of a login node, job-scheduling nodes and seven work-nodes, which are available to end users. The work-nodes have the following specification: 16 Intel Xeon 2.6 GHz cores, 64 GB main memory, 850 GB fast local storage. Home directories and per-Lab data areas are available on two shared network volumes, each having a total initial capacity of 15TB.
+The cluster presently consists of a login node, which can be accessed from the internet, job-scheduling nodes, which are private to the cluster, and seven work-nodes, which are available to end users via the login node. The work-nodes have the following specification: 16 Intel Xeon 2.6 GHz cores, 64 GB main memory, 850 GB fast local storage. Home directories and per-Lab data areas are available on two shared network volumes, each having a total initial capacity of 15TB.
 
-The cluster runs the [HTCondor](https://htcondor.com) batch scheduler. The system is presently in beta testing: if it proves useful it will be expanded.
+The cluster runs the [HTCondor](https://htcondor.com) batch scheduler. The system is *presently in beta testing*: if it proves useful it will be expanded.
 
 
 ## Getting an Account and First Login
 
-To get an account on Noether please send an email to the [BLACKETT-SUPPORT](mailto:BLACKETT-SUPPORT@listserv.manchester.ac.uk) mailing list stating your lab affiliation. You will then be supplied out-of-band with an initial set of login credentials. The username assigned will be the same as your existing HEP username, if you have one.
+To get an account on Noether please send an email to the [BLACKETT-SUPPORT](mailto:BLACKETT-SUPPORT@listserv.manchester.ac.uk) mailing list stating your lab affiliation. You will then be supplied out-of-band with an initial set of login credentials. The username assigned will be the same as your existing HEP username, if you have one; the password will be quasi-random.
 
 Then to connect to Noether for the first time please ```ssh``` with your supplied username to ```noether.hep.manchester.ac.uk```. Please note that if you are connecting from off-Campus you will need to install an initialise the [GlobalProtect VPN](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/) tool provided by IT Services. On your initial connection attempt the supplied password will need to be changed, as in the following example:
 
