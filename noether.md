@@ -1,10 +1,12 @@
 ### Noether Batch Compute Cluster
 
-The Noether batch compute cluster is available to members of the HEP Group for exploratory batch and interactive high-throughput computation.
+# What is Noether?
 
-The cluster presently consists of a login node and seven work-nodes. The current work-nodes have the following specification:
+[Noether](https://jwa.org/encyclopedia/article/noether-emmy) is an experimental Linux cluster being made available to members of the HEP Group for exploratory batch and interactive high-throughput computation.
 
-16 cores, 64 GB main memory, 850 GB fast local stoage
+The cluster presently consists of a login node, job-scheduling nodes and seven work-nodes, which are available to end users.
+
+The current work-nodes have the following specification: 16 Intel Xeon 2.6 GHz cores, 64 GB main memory, 850 GB fast local stoage
     
 Home directories and per-lab data areas are available on two shared network volumes, each having a total initial capacity of 15TB.
 
@@ -36,4 +38,6 @@ mrtest@noether.hep.manchester.ac.uk's password: ************
 ```
 
 Using the cluster: we are accumulating sample job scripts which will be placed on GitHub in due course. For now, if you are unfamiliar with HTCondor batch job submission, please refer to [this guide](https://htcondor.readthedocs.io/en/latest/users-manual/quick-start-guide.html).
+
+Interactive sessions on Noether. 
 
