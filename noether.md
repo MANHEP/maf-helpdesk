@@ -62,10 +62,11 @@ Here the shell session of user ```mrtest``` was teleported to work-node ```wn380
 
 ```
     [mrtest@wn3801320 dir_394806]$ cd
-    [mrtest@wn3801320 ~]$ pwd
-    /gluster/home/mrtest
-    [mrtest@wn3801320 ~]$ cd /scratch/condor_pool/condor/dir_396312
-    [mrtest@wn3801320 dir_394806]$
+    [mrtest@wn3801320 ~]$ pwd       
+    /gluster/home/mrtest                            # Now in cluster-wide $HOME directory
+    [mrtest@wn3801320 ~]$ cd $_CONDOR_SCRATCH_DIR
+    [mrtest@wn3801320 dir_394806]$ pwd 
+    /scratch/condor_pool/condor/dir_394806          # Now back in job-specific node-local scratch directory
 ```
 
 It is thus necessary to *copy critical code and data back into one's home or Lab directory* before the interactive session terminates.
