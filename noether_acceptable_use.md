@@ -107,4 +107,4 @@ These regulations have been approved by the Head of Group and IT Team,
 Particle Physics in the University of Manchester. Should additions or
 amendments transpire from time to time, they will be announced in the
 [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk) mailing list, and this document will be
-updated accordingly, the current version being posted at the [present location](https://github.com/MANHEP/sysadmin-docs/edit/main/tier3/noether/acceptable-use.md). 
+updated accordingly, the current version being posted at the [present location](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_acceptable_use.md). 
