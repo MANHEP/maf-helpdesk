@@ -26,7 +26,7 @@ mandated*. We deem usage to be *inappropriate* when it fails to be
 or when it generally does not accord with such guidelines as may be set
 forth in the present document.
 
-### Warnings and Penalties ###
+### Breaches ###
 
 Any breach of *acceptable* use is liable to incur *summary
 termination* of the offending user's batch jobs and shell sessions on
