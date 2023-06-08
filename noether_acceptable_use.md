@@ -69,7 +69,7 @@ unavailable, and the account itself deactivated.
 
 Your **Noether** account will receive a POSIX
 group id corresponding to to your primary *experimental
-affiliation* and you will have access to the corresponding data area.
+affiliation* and you will have access to *a corresponding data area*.
 You may not source or copy data from any other experimental data
 location without permission: if you have obtained that permission please
 forward the evidence in an email to [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk) and
