@@ -57,7 +57,7 @@ are subject to a *quota* as specified in the [FAQ](https://github.com/MANHEP/maf
 
 ### Expiry of Accounts ###
 
-Accounts are by default be suspended when their owner's leaving date (as
+Accounts are by default suspended when their owner's leaving date (as
 recorded by Campus HR) is attained. Of course dispensations to keep
 accounts active beyond this point may be countenanced subject to the
 approval of the Head of Group. After six months from the date of
