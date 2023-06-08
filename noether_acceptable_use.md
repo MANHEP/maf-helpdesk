@@ -51,9 +51,9 @@ account.
 
 ### Home Directories ###
 
-Users are granted an home directory with a small initial selection of
+Users are granted a *home directory* with a small initial selection of
 'dotfiles' and sample HTCondor scripts: this directory
-are subject to a *quota* as specified in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/faq.md); if you require more than this you must request it via [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk).
+are subject to a *quota* as specified in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/faq.md); if you require additional capacity, you must request it via [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk).
 
 ### Expiry of Accounts ###
 
