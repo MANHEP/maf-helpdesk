@@ -6,7 +6,7 @@
 
 The cluster presently consists of a login node, which can be accessed from the internet, job-scheduling nodes, which are private to the cluster, and seven work-nodes, which are available to end users via the login node. The work-nodes have the following specification: 16 Intel Xeon 2.6 GHz cores, 64 GB main memory, 850 GB fast local storage. Home directories and per-Lab data areas are available on two shared network volumes, each having a total initial capacity of 15TB.
 
-The cluster runs the [HTCondor](https://htcondor.com) batch scheduler. The system is *presently in beta testing*: if it proves useful it will be expanded.
+The cluster runs the [HTCondor](https://htcondor.com) batch scheduler.
 
 
 ## Getting an Account and First Login
