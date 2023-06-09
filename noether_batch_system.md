@@ -11,28 +11,24 @@ The cluster presently consists of a login node, which can be accessed from the i
 As expained in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md), to request an account on Noether, please send an email to the [BLACKETT-SUPPORT](mailto:BLACKETT-SUPPORT@listserv.manchester.ac.uk) mailing list. When your request is approved, you will be supplied out-of-band with an initial set of login credentials.
 
 Then to connect to Noether for the first time please ```ssh``` with your supplied username to ```noether.hep.manchester.ac.uk```. Please note that if you are connecting from off-Campus you will need to install an initialise the [GlobalProtect VPN](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/) tool provided by IT Services. On your *initial connection attempt the supplied password will need to be changed*, as in the following sample `ssh` session:
-
 ```
     $ ssh mrtest@noether.hep.manchester.ac.uk
+    Password: *******                                            # <---- enter the issued password
     WARNING: Your password has expired.
     You must change your password now and login again!
     Changing password for user mrtest.
-    Current Password: *******                                    # <---- enter the issued password
-    New password: ************                                   # <---- now choose a secure password
-    Retype new password: ************                            # <---- re-enter your secure password
-    passwd: all authentication tokens updated successfully.
+    Current Password: *******                                    # <---- enter the issued password AGAIN
+    New password: ************                                   # <---- now choose a NEW password
+    Retype new password: ************                            # <---- re-enter your NEW password
+    passwd: all authentication tokens updated successfu lly.
     Connection to noether.hep.manchester.ac.uk closed.
 ```
-
-Next time you ```ssh``` in you will get a shell session on the Noether login node:
-
-
+The next time you ```ssh``` to Noether, entering the new password will give you a shell session on the Noether:
 ```
     $ ssh mrtest@noether.hep.manchester.ac.uk
     mrtest@noether.hep.manchester.ac.uk's password: ************
-    [mrtest@vm119 ~]$                       # <---- On Noether!
+    [mrtest@vm119 ~]$                                            # <---- On Noether's login node!
 ```
-
 ## Using the Cluster.
 
 Some brief notes and sample sessions -- this section will be amplified in due course.
