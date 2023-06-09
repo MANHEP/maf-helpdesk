@@ -12,7 +12,6 @@ As expained in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noet
 
 Then to connect to Noether for the first time please ```ssh``` with your supplied username to ```noether.hep.manchester.ac.uk```. Please note that if you are connecting from off-Campus you will need to install an initialise the [GlobalProtect VPN](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/) tool provided by IT Services. On your *initial connection attempt the supplied password will need to be changed*, as in the following sample `ssh` session:
 
-
 ```
     $ ssh mrtest@noether.hep.manchester.ac.uk
     WARNING: Your password has expired.
