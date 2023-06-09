@@ -4,8 +4,7 @@
 
 [Noether](https://jwa.org/encyclopedia/article/noether-emmy) is a Linux compute cluster being made available to members of the HEP Group for exploratory high-throughput computation.
 
-The cluster presently consists of a login node, which can be accessed from the internet, job-scheduling nodes, which are private to the cluster, and seven work-nodes, which are available to end users via the login node. The work-nodes have the following specification: 16 Intel Xeon 2.6 GHz cores, 64 GB main memory, 850 GB fast local storage. Home directories and per-Lab data areas are available on two shared network volumes, each having a total initial capacity of 15TB.
-
+The cluster presently consists of a login node, which can be accessed from the internet, job-scheduling nodes, which are private to the cluster, and a number of work-nodes, which are available to end-users via the login node under the aegis the [HTCondor](https://htcondor.com) batch schduler.
 The cluster runs the [HTCondor](https://htcondor.com) batch scheduler.
 
 
