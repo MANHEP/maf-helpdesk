@@ -18,9 +18,9 @@ Then to connect to Noether for the first time please ```ssh``` with your supplie
     WARNING: Your password has expired.
     You must change your password now and login again!
     Changing password for user mrtest.
-    Current Password: *******               # <---- enter the issued password
-    New password: ************              # <---- now choose a secure password
-    Retype new password: ************       # <---- re-enter your secure password
+    Current Password: *******                                    # <---- enter the issued password
+    New password: ************                                   # <---- now choose a secure password
+    Retype new password: ************                            # <---- re-enter your secure password
     passwd: all authentication tokens updated successfully.
     Connection to noether.hep.manchester.ac.uk closed.
 ```
