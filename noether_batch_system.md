@@ -1,12 +1,12 @@
-### Noether Compute Cluster: Basic Usage ###
+# Noether Compute Cluster: Basic Usage #
 
-# What is Noether? #
+### What is Noether? ###
 
 [Noether](https://jwa.org/encyclopedia/article/noether-emmy) is a Linux compute cluster being made available to members of the HEP Group for exploratory high-throughput computation.
 
 The cluster presently consists of a login node, which can be accessed from the internet, job-scheduling nodes, which are restricted to the sysadmins, and a number of work-nodes, which are available to end-users via the login node *only* under the aegis the [HTCondor](https://htcondor.com) batch schduler.
 
-# Getting an Account and First Login #
+### Getting an Account and First Login ###
 
 As expained in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md), to request an account on Noether, please send an email to the [BLACKETT-SUPPORT](mailto:BLACKETT-SUPPORT@listserv.manchester.ac.uk) mailing list. When your request is approved, you will be supplied out-of-band with an initial set of login credentials.
 
@@ -30,7 +30,7 @@ The next time you ```ssh``` to Noether, entering the new password will give you 
     [mrtest@vm119 ~]$                                            # <---- On Noether's login node!
 ```
 
-# Sessions #
+### Sessions ###
 
 Noether also supports interactive shell sessions on work-nodes. Use of the login node for heavy computational work is *prohibited*: users are expected to conduct their interactive shell sessions on certain work-nodes that have been set aside for that purpose. It is also *prohibited* to directly ```ssh``` to any work-node: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
 
