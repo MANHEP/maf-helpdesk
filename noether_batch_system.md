@@ -34,8 +34,6 @@ Next time you ```ssh``` in you will get a shell session on the Noether login nod
     [mrtest@vm119 ~]$                       # <---- On Noether!
 ```
 
-Note that the login node of Noether is presently ```vm117``` -- this may change from time to time.
-
 ## Using the Cluster.
 
 Some brief notes and sample sessions -- this section will be amplified in due course.
