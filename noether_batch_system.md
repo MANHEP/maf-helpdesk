@@ -30,9 +30,9 @@ The next time you ```ssh``` to Noether, entering the new password will give you 
     [mrtest@vm119 ~]$                                            # <---- On Noether's login node!
 ```
 
-### Sessions ###
+### Interactive Sessions ###
 
-Noether also supports interactive shell sessions on work-nodes. Use of the login node for heavy computational work is *prohibited*: users are expected to conduct their interactive shell sessions on certain work-nodes that have been set aside for that purpose. It is also *prohibited* to directly ```ssh``` to any work-node: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
+Use of the login node for heavy computational work is *prohibited*: users are expected to conduct intensive interactive shell sessions the clusters work-nodes, some of which have been set aside for this purpose. It is also *prohibited* to directly ```ssh``` to any work-node: users should issue the command ```condor_submit -i getenv=True``` as in the following example:
 
 ```
     $ condor_submit -i  getenv=True
