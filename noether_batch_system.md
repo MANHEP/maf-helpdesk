@@ -1,4 +1,4 @@
-# Noether Batch Compute Cluster
+# Noether Compute Cluster: Basic Usage
 
 ## What is Noether?
 
