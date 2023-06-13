@@ -2,7 +2,7 @@
 
 ### What is Noether? ###
 
-[Noether](https://jwa.org/encyclopedia/article/noether-emmy) is a Linux compute cluster being made available to members of the HEP Group for exploratory high-throughput computation.
+Noether is a Linux compute cluster being made available to members of the HEP Group for exploratory high-throughput computation.
 
 The cluster presently consists of a login node, which can be accessed from the internet, job-scheduling nodes, which are restricted to the sysadmins, and a number of work-nodes, which are available to end-users via the login node *only* under the aegis the [HTCondor](https://htcondor.com) batch schduler.
 
