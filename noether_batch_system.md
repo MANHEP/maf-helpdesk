@@ -23,7 +23,7 @@ Then to connect to Noether for the first time please ```ssh``` with your supplie
     passwd: all authentication tokens updated successfu lly.
     Connection to noether.hep.manchester.ac.uk closed.
 ```
-The next time you ```ssh``` to Noether, entering the new password will give you a shell session on the Noether:
+The next time you `ssh` to Noether, entering the new password will give you a shell session on the Noether:
 ```
     $ ssh mrtest@noether.hep.manchester.ac.uk
     mrtest@noether.hep.manchester.ac.uk's password: ************
@@ -32,7 +32,7 @@ The next time you ```ssh``` to Noether, entering the new password will give you 
 
 ### Interactive Sessions ###
 
-Use of the login node for heavy computational work is *prohibited*: users are expected to conduct intensive interactive shell sessions the clusters work-nodes, some of which have been set aside for this purpose. Now *directly ing to a work-node is not permitted*: users should issue the command `condor_submit -i``` or the alias `qrsh`  as in the following example:
+Use of the login node for heavy computational work is *prohibited*: users are expected to conduct intensive interactive shell sessions the clusters work-nodes, some of which have been set aside for this purpose. Now *directly ing to a work-node is not permitted*: users should issue the command `condor_submit -i` or the alias `qrsh`  as in the following example:
 
 ```
     $ condor_submit -i  getenv=True
@@ -42,7 +42,7 @@ Use of the login node for heavy computational work is *prohibited*: users are ex
     [mrtest@wn3801320 dir_394806]$ pwd
     /scratch/condor_pool/condor/dir_394806
 ```
-Here the shell session of user ```mrtest``` was teleported to work-node ```wn3801320``` *under the auspices of the HTCondor scheduler* (hence the time limit). Note that the working directory ```getenv=True``` is *not* ```mrtest```'s home directory on Noether! -- it is a *scratch directory* which is *local to the node*. Heavy IO work should be *confined to these local scratch directories*.  However, ```mrtest``` can easily access his *cluster-wide home directory* simply by issuing ```cd```as follows:
+Here the shell session of user `mrtest` was teleported to work-node ```wn3801320``` *under the auspices of the HTCondor scheduler* (hence the time limit). Note that the working directory `getenv=True` is *not* `mrtest`'s home directory on Noether! -- it is a *scratch directory* which is *local to the node*. Heavy IO work should be *confined to these local scratch directories*.  However, ```mrtest``` can easily access his *cluster-wide home directory* simply by issuing ```cd```as follows:
 
 ```
     [mrtest@wn3801320 dir_394806]$ cd
