@@ -2,4 +2,4 @@
 
 * [X.509 "grid" certificates](Certificates.md)
 * [User web pages](user-web-pages.md)
-* [Noether Compute Cluster](noether-faq.md)
+* [Noether compute cluster](noether-faq.md)
