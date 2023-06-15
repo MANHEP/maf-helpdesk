@@ -45,7 +45,7 @@ Most users will wish to 'start small' in their home directory under an interacti
 
 C3. **How do I start an interactive session on a work-node?**
 
-In brief, one issues `condor_submit -i` or simply `qrsh` to be 'teleported' to a work-node of Noether (a subset of work-nodes has been set aside for interactive sessions). More details are given in [TO DO]
+In brief, one issues `condor_submit -i` or simply `qrsh` to be 'teleported' to a work-node of Noether (a subset of work-nodes has been set aside for interactive sessions). More details are given in [here](noether_basic_usage.md)
 
 C4. **How do I submit a batch job into the HTCondor scheduler queue?**
 
