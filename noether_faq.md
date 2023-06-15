@@ -49,7 +49,7 @@ In brief, one issues `condor_submit -i` or simply `qrsh` to be 'teleported' to a
 
 C4. **How do I submit a batch job into the HTCondor scheduler queue?**
 
-A simple example of the use of HTCondor to run batch jobs is given in the same document [HERE]
+A simple example of the use of HTCondor to run batch jobs is given [ibid](noether_basic_usage.md)
 
 ### Section D. Resource Limits ###
 
