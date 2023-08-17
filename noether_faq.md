@@ -4,7 +4,7 @@
 
 A1. **What is Noether?**
 
-Noether is the HEP Group's 'Tier3' end-user research computation cluster, consisting of several loosely-coupled physical and virtual machines. Shared home directory and data areas are mounted from a [Gluster](https://www.gluster.org/) farm, and by using the [HTCondor|https://htcondor.org/] scheduler, users can run batch or interactive sessions on the cluster.
+Noether is the HEP Group's 'Tier3' end-user research computation cluster, consisting of several loosely-coupled physical and virtual machines. Shared home directory and data areas are mounted from a [Gluster](https://www.gluster.org/) farm, and by using the [HTCondor](https://htcondor.org/) scheduler, users can run batch or interactive sessions on the cluster.
 
 A2. **How do I request an account on Noether?**
 
