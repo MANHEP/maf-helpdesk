@@ -1,5 +1,6 @@
 # Manchester Analysis Facility help pages
 
 * [X.509 "grid" certificates](Certificates.md)
-* [User web pages](user-web-pages.md)
-* [Noether compute cluster](noether_faq.md)
+* Noether compute cluster
+  * [Basic usage](noether_basic_usage.md)
+  * [FAQ](noether_faq.md)
