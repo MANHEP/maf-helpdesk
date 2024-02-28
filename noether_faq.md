@@ -12,7 +12,7 @@ Please send an email to [BLACKETT-SUPPORT] cc-ing an academic sponsor and indica
 
 A3. **How many work-nodes does Noether have and what are their memory and CPU specifications?**
 
-There are presently 24 work-nodes: 8 having 96 cores / 384GB RAM (4GB/core Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz) and the remaining 12 work-nodes having 16 cores / 64 GB RAM (4GB/core Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz). The total is therefore currently 864 cores, though in practice this may vary somewhat as equipment is added, retired or placed under maintenance.
+There are presently 24 work-nodes: 8 having 96 cores / 384GB RAM (4GB/core Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz) and the remaining standard 12 work-nodes having 16 cores / 64 GB RAM (4GB/core Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz). There are in addtion a number of GPU-enabled work-nodes (at the time of wrting 3, of which 1 is interactive and the remainder batch-only); instructions on how to submit jobs to these nodes is given below. The total is therefore currently 864 cores, though in practice this may vary somewhat as equipment is added, retired or placed under maintenance. 
 
 ### Section B. Storage ###
 
@@ -50,6 +50,10 @@ In brief, one issues `condor_submit -i` or simply `qrsh` to be 'teleported' to a
 C4. **How do I submit a batch job into the HTCondor scheduler queue?**
 
 A simple example of the use of HTCondor to run batch jobs is given [ibid](noether_basic_usage.md)
+
+C5. **How do I use the GPU-enabled work-nodes?**
+
+That is very straightforward: for interactive sessions simply add `qrsh request_gpus=1` to your `qrsh` invocation. For batch jobs you may add 'request_gpus=[1-3]' to either your `qsub` or `.sub` file (the current batch GPU nodes have three such processors).
 
 ### Section D. Resource Limits ###
 
