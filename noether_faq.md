@@ -53,7 +53,7 @@ A simple example of the use of HTCondor to run batch jobs is given [ibid](noethe
 
 C5. **How do I use the GPU-enabled work-nodes?**
 
-That is very straightforward: for interactive sessions simply add `qrsh request_gpus=1` to your `qrsh` invocation. For batch jobs you may add 'request_gpus=[1-3]' to either your `qsub` or `.sub` file (the current batch GPU nodes have three such processors).
+That is very straightforward: for interactive sessions simply add `qrsh request_gpus=1` to your `qrsh` invocation. For batch jobs you may add `request_gpus=[1-3]` to either your `qsub` invocation or the corresponding `.sub` file for the job (the current batch GPU nodes have three such processors).
 
 ### Section D. Resource Limits ###
 
