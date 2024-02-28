@@ -75,4 +75,4 @@ Unfortunately we cannot use the 'old-style' AFS home directories on Noether, but
 
 E3. **Max Noether or Emmy Noether?**
 
-[Emmy](https://jwa.org/encyclopedia/article/noether-emmy).
+[Emmy](https://jwa.org/encyclopedia/article/noether-emmy). (But maybe Max for Algebraic Geometry devotees).
