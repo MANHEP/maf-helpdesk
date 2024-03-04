@@ -23,11 +23,12 @@ Please ask them to send an email to [BLACKETT-SUPPORT] with you in CC, providing
 
 A3. **How many work-nodes does Noether have and what are their memory and CPU specifications?**
 
-There are presently 24 work-nodes: 8 having 96 cores / 384GB RAM (4GB/core Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz) and
-the remaining standard 12 work-nodes having 16 cores / 64 GB RAM (4GB/core Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz).
-There are in addtion a number of GPU-enabled work-nodes (at the time of wrting 3, of which 1 is interactive and the remainder batch-only);
-instructions on how to submit jobs to these nodes is given below.
-The total is therefore currently 864 cores,
+There are presently 31 work-nodes:
+- 8 with 96 cores / 384GB RAM (4GB/core, Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz).
+- 20 with 16 cores / 64 GB RAM (4GB/core, Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz).
+- 3 GPU nodes each with 3 Tesla V100 GPUs and 32 cores / 128 GB RAM (4GB/core, Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz).
+
+The total is therefore currently 1184 cores and 9 GPUs,
 though in practice this may vary somewhat as equipment is added,
 retired or placed under maintenance. 
 
