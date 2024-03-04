@@ -21,6 +21,10 @@ Please ask them to send an email to [BLACKETT-SUPPORT] with you in CC, providing
 - Expiry date of the account.
 - Required access to experimental or project data.
 
+If supervisors need accounts for multiple users,
+the admin team would appreciate it if they ask for them in one request rather than in individual requests.
+This will allow us to process them more efficiently.
+
 A3. **How many work-nodes does Noether have and what are their memory and CPU specifications?**
 
 There are presently 31 work-nodes:
