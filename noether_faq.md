@@ -55,7 +55,7 @@ Access to additional areas will be granted upon request subjecxt to stakeholder 
 B3. **What are the quotas for the Home and Data areas on Noether?**
 
 All end-user home directories, which are to be found under `/gluster/home`,
-are assigned an initial capacity of 5GB, whereas the per-experiment data directories are assigned 10TB.
+are assigned an initial capacity of 20GB, whereas the per-experiment data directories are assigned 10TB.
 This large datasets should not be kept in one's home directory.
 If you run over capacity you will be unable to create new files.
 You must either free up space or request in increase to your quota via the [BLACKETT-SUPPORT] list.
