@@ -127,4 +127,4 @@ Make sure you [disconnect the tunnel](#stopping-the-tunnel) when you're done.
 
 ## Thanks
 
-Thanks to Oscar for providing the initial instructions.
+Thanks to James Smith and Oscar Fuentes Rebato for providing the initial instructions.
