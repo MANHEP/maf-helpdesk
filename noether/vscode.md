@@ -15,9 +15,9 @@
 ## First time setup
 1. Install the Microsoft `Remote - Tunnels` extension if you use the VS Code desktop application, otherwise you can skip this step.
    Open the `Extensions` sidebar (Ctrl+Shift-X), search for `ms-vscode.remote-server` and install it.
-1. Connect to Noether (replace `<username>` with your own user name).
+1. Connect to Noether (replace `username` with your own user name).
    ```shell
-   $ ssh <username>@noether.hep.manchester.ac.uk
+   $ ssh username@noether.hep.manchester.ac.uk
    ```
 1. Get the VS Code Server CLI
    ```shell
@@ -44,8 +44,8 @@
    1. Ignore the request to open the vscode.dev url in a browser if you want to use the desktop app.
 
    The full terminal output looks like this:
-   ```shell
-   [<username>@<interactive node> ~]$ ./code tunnel
+   ```
+   [username@interactive_node ~]$ ./code tunnel
    *
    * Visual Studio Code Server
    *
@@ -54,9 +54,9 @@
    * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
    *
    ✔ How would you like to log in to Visual Studio Code? · Microsoft Account
-   To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code <authcode> to authenticate.
+   To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code AUTHCODE to authenticate.
    ✔ What would you like to call this machine? · noether
-   [<date>] info Creating tunnel with the name: noether
+   [date] info Creating tunnel with the name: noether
 
    Open this link in your browser https://vscode.dev/tunnel/noether
    ```
@@ -70,7 +70,7 @@
    You don’t need to open a new interactive shell session in VS Code, the terminal should already be connected to it.
    If the connection is successful the following line will be shown in the terminal window.
    ```
-   [<date>] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
+   [date] info [tunnels::connections::relay_tunnel_host] Opened new client on channel 2
    ```
 **IMPORTANT**
 - Every time you want to use the tunnel, you need to start it again in an interactive session.
@@ -84,9 +84,9 @@
 
 ## Starting an already configured tunnel
 
-1. Connect to Noether (replace `<username>` with your own user name).
+1. Connect to Noether (replace `username` with your own user name).
    ```shell
-   $ ssh <username>@noether.hep.manchester.ac.uk
+   $ ssh username@noether.hep.manchester.ac.uk
    ```
 1. Start an interactive shell and move back to your home directory.
    ```shell
@@ -99,8 +99,8 @@
    ```
    Ignore the request to open the vscode.dev url in a browser if you want to use the desktop app.
    The full terminal output looks like this:
-   ```shell
-   [<username>@<interactive node> ~]$ ./code tunnel
+   ```
+   [username@interactive_node ~]$ ./code tunnel
    *
    * Visual Studio Code Server
    *
