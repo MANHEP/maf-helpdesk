@@ -16,23 +16,23 @@
 1. Install the Microsoft `Remote - Tunnels` extension if you use the VS Code desktop application, otherwise you can skip this step.
    Open the `Extensions` sidebar (Ctrl+Shift-X), search for `ms-vscode.remote-server` and install it.
 1. Connect to Noether (replace `<username>` with your own user name).
-   ```
+   ```shell
    $ ssh <username>@noether.hep.manchester.ac.uk
    ```
 1. Get the VS Code Server CLI
-   ```
+   ```shell
    $ mkdir vscode
    $ cd vscode
    $ curl -L 'https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64' --output vscode_cli.tar.gz
    $ tar -xf vscode_cli.tar.gz
    ```
 1. Start an interactive shell and move back to your home directory.
-   ```
+   ```shell
    $ condor_submit -i getenv=True
    $ cd
    ```
 1. Set up the VS Code tunnel
-   ```
+   ```shell
    $ ./code tunnel
    ```
    Follow the instructions that come up (log into an account).
@@ -44,7 +44,7 @@
    1. Ignore the request to open the vscode.dev url in a browser if you want to use the desktop app.
 
    The full terminal output looks like this:
-   ```
+   ```shell
    [<username>@<interactive node> ~]$ ./code tunnel
    *
    * Visual Studio Code Server
@@ -85,21 +85,21 @@
 ## Starting an already configured tunnel
 
 1. Connect to Noether (replace `<username>` with your own user name).
-   ```
+   ```shell
    $ ssh <username>@noether.hep.manchester.ac.uk
    ```
 1. Start an interactive shell and move back to your home directory.
-   ```
+   ```shell
    $ condor_submit -i getenv=True
    $ cd
    ```
 1. Start the VS Code tunnel
-   ```
+   ```shell
    $ ./code tunnel
    ```
    Ignore the request to open the vscode.dev url in a browser if you want to use the desktop app.
    The full terminal output looks like this:
-   ```
+   ```shell
    [<username>@<interactive node> ~]$ ./code tunnel
    *
    * Visual Studio Code Server
