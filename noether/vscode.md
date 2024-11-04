@@ -98,6 +98,7 @@
    $ ./code tunnel
    ```
    Ignore the request to open the vscode.dev url in a browser if you want to use the desktop app.
+   
    The full terminal output looks like this:
    ```
    [username@interactive_node ~]$ ./code tunnel
