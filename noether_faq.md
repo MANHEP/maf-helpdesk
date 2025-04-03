@@ -114,7 +114,3 @@ Not many at the moment: just standard Linux system utilities and what can be fou
 E2. **I already have an account on the machines `pc2012, pc2013, pc1014, higgs` and the shared GPU machines. Can I use the same home directory on Noether?**
 
 Unfortunately we cannot use the 'old-style' AFS home directories on Noether, but we can certainly assist with copying data across to the new infrastructure, subject to quota.
-
-E3. **Max Noether or Emmy Noether?**
-
-[Emmy](https://jwa.org/encyclopedia/article/noether-emmy). (But maybe also Max for Algebraic Geometry devotees).
