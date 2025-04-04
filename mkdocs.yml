@@ -21,6 +21,7 @@ theme:
     - content.code.copy
     - content.action.edit
   palette:
+    - primary: deep purple
     - scheme: default
       toggle:
         icon: material/brightness-7
