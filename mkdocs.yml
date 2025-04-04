@@ -1,0 +1,64 @@
+site_name: maf-helpdesk
+site_description: Manchester Analysis Facility Helpdesk
+site_author: MANHEP
+site_url: https://manhep.github.io/maf-helpdesk/
+copyright:  null
+repo_name: GitHub
+repo_url: https://github.com/MANHEP/maf-helpdesk/
+repo_uri: tree/master/docs
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Noether Usage:
+      - Basic: noether_basic_usage.md
+      - Acceptable: noether_acceptable_use.md
+  - Certificates: Certificates.md
+  - Users: user-web-pages.md
+  - FAQ: noether_faq.md
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.emoji
+  - pymdownx.progressbar
+  - pymdownx.blocks.html
+  - admonition
+  - codehilite
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: "#"
+      toc_depth: 4
+
+plugins:
+  - search
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
