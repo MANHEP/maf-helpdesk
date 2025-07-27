@@ -13,20 +13,17 @@ users can run batch or interactive sessions on the cluster.
 A2. **How do I request an account on Noether?**
 
 Accounts have to be requested by your academic supervisor or line manager.
-Please ask them to send an email to [BLACKETT-SUPPORT] with you in CC, providing the following information about you:
-- Full name.
-- University of Manchester email address.
-- Role
-- Primary affiliation (experiment or project)
-- Expiry date of the account.
-- Required access to experimental or project data.
+They need to fill in the form at
+```
+https://vm107.hep.manchester.ac.uk/noetheruserrequest
+```
+Note that the requester warrants that the new account holder agrees to the [acceptable use policy](../noether_acceptable_use/).
 
-If supervisors need accounts for multiple users,
-the admin team would appreciate it if they ask for them in one request rather than in individual requests.
-This will allow us to process them more efficiently.
+When the account has been created we will send you temporary password on Teams, and email to say so. There will be a prompt to change that password on the first SSH login to Noether. Note that you must change it before, for instance, using the user request form or any other non-SSH access.
 
 A3. **How many work-nodes does Noether have and what are their memory and CPU specifications?**
 
+<!-- Fixme: outdated -->
 There are presently 31 work-nodes:
 - 8 with 96 cores / 384GB RAM (4GB/core, Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz).
 - 20 with 16 cores / 64 GB RAM (4GB/core, Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz).
