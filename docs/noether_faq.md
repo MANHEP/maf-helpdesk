@@ -53,24 +53,27 @@ B3. **What are the quotas for the Home and Data areas on Noether?**
 
 All end-user home directories, which are to be found under `/gluster/home`,
 are assigned an initial capacity of 20GB, whereas the per-experiment data directories are assigned 10TB.
-This large datasets should not be kept in one's home directory.
+Thus large datasets should not be kept in one's home directory.
 If you run over capacity you will be unable to create new files.
 You must either free up space or request in increase to your quota via the [BLACKETT-SUPPORT] list.
 
 B4. **Are the Home and Data areas backed up?**
 
-*No they are not backed up* presently: it is therefore essential that users of Noether ensure that *all critical code and data* are
+*No they are not backed up* currently: it is therefore essential that users of Noether ensure that *all critical code and data* are
 regularly `rsync`-ed (or otherwise transferred) to a secure and resilient out-of-band location,
-such as an encrypted external hard-drive.
+such as an encrypted external hard-drive. <!-- mention onedrive? -->
 
 
 ### Section C. Usage ###
 
 C1. **How do I connect to Noether?**
 
-You must use an ssh-client to connect to Noether.
-If you use Linux or Mac OS then you may simply `ssh <your_username>@noether.hep.manchester.ac.uk`.
-The proceedure for resetting your initially assigned password is given in the email sent to you when your account is created.
+You must use an SSH client to connect to Noether.
+If you use Linux or Mac OS then you may simply
+```
+ssh <your_username>@noether.hep.manchester.ac.uk
+```
+The proceedure for resetting your initially-assigned password is given in the email sent to you when your account is created.
 If you use Windows then it it recommended either to use PuTTy or the Windows Subsystem for Linux.
 
 C2. **What is a typical workflow on Noether?**
@@ -95,7 +98,7 @@ That is very straightforward: for interactive sessions simply add `qrsh request_
 For batch jobs you may add `request_gpus=[1-3]` to either your `qsub` invocation or the corresponding `.sub` file for the job (the current batch GPU nodes have three such processors).
 
 ### Section D. Resource Limits ###
-
+<!-- Writeme! -->
 D1. **How do I request such and such a CPU or memory resource for the job I submit?**
 
 D2. **How do I submit multiple parameterized copies of the same task into the queue?**
