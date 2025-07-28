@@ -8,9 +8,9 @@ The cluster currently consists of a login node, which can be accessed from the i
 
 ### Getting an Account and First Login ###
 
-As explained in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md), to request an account on Noether, please ask your supervisor/line manager to send an email to the [BLACKETT-SUPPORT](mailto:BLACKETT-SUPPORT@listserv.manchester.ac.uk) mailing list. When your request is approved, you will be supplied out-of-band with an initial set of login credentials.
+As explained in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md), to request an account on Noether, please ask your supervisor/line manager to fill in the new account form. When your request is approved, you will be supplied out-of-band with an initial set of login credentials.
 
-Then to connect to Noether for the first time please ```ssh``` with your supplied username to ```noether.hep.manchester.ac.uk```. Please note that if you are connecting from off-Campus you will need to install and initialise the [GlobalProtect VPN](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/) tool provided by IT Services. On your *initial connection attempt the supplied password will need to be changed*, as in the following sample `ssh` session:
+Then to connect to Noether for the first time please ```ssh``` with your supplied username to ```noether.hep.manchester.ac.uk```. Please note that if you are connecting from off-Campus, apart from the CERN interactive system, you will need to install and initialise the [GlobalProtect VPN](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/) tool provided by IT Services; the Research IT GP documentation may be useful concerning self-managed devices running [GNU/Linux](https://ri.itservices.manchester.ac.uk/restricted/offcampus/vpn-selfmanaged-linux-systems/), [MS Windows](https://ri.itservices.manchester.ac.uk/restricted/offcampus/self-managed-windows-devices/), or [OS X](https://ri.itservices.manchester.ac.uk/restricted/offcampus/self-managed-mac-os-x-devices/). On your *initial connection attempt the supplied password will need to be changed*, as in the following sample `ssh` session:
 ```
     $ ssh mrtest@noether.hep.manchester.ac.uk
     Password: *******                                            # <---- enter the issued password
@@ -44,8 +44,7 @@ Use of the login node for heavy computational work is *prohibited*: users are ex
     [mrtest@wn3801320 dir_394806]$ pwd
     /scratch/condor_pool/condor/dir_394806
 ```
-Here the shell session of user `mrtest` was teleported to work-node ```wn3801320``` *under the auspices of the HTCondor scheduler* (hence the time limit). Note that the working directory `getenv=True` <!-- ?? -->
-is *not* `mrtest`'s home directory on Noether! -- it is a *scratch directory* which is *local to the node*. Heavy IO work should be *confined to these local scratch directories*.  However, ```mrtest``` can easily access his *cluster-wide home directory* simply by issuing ```cd```as follows:
+Here the shell session of user `mrtest` was teleported to work-node ```wn3801320``` *under the auspices of the HTCondor scheduler* (hence the time limit). Note that the working directory is *not* `mrtest`'s home directory on Noether! -- it is a *scratch directory* which is *local to the node*. Heavy IO work should be *confined to these local scratch directories*.  However, ```mrtest``` can easily access their *cluster-wide home directory* simply by issuing ```cd```as follows:
 
 ```
     [mrtest@wn3801320 dir_394806]$ cd
