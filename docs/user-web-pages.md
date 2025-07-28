@@ -2,8 +2,8 @@
 
 Some users of the particle physics interactive cluster are able to publish web pages and other 
 files on users.hep.manchester.ac.uk However for most people, the University's 
-[personal pages service](https://personalpages.manchester.ac.uk/personalwebpages.html) or a 
-lab service like 
+[personal pages service](https://personalpages.manchester.ac.uk/personalwebpages.html) <!-- Fixme: won't work when P drives die; still no info about that: https://connect.manchester.ac.uk/esc?id=kb_article&sysparm_article=KB0012444 -->
+or a lab service like 
 [CERN's AFS websites](https://espace.cern.ch/webservices-help/websitemanagement/ConfiguringAFSSites/Pages/PermissionsforyourAFSfolder.aspx)
 will be better options.
 
