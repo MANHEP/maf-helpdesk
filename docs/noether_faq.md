@@ -23,7 +23,6 @@ When the account has been created we will send you temporary password on Teams, 
 
 A3. **How many work-nodes does Noether have and what are their memory and CPU specifications?**
 
-<!-- Fixme: outdated -->
 There are presently 31 work-nodes:
 - 8 with 96 cores / 384GB RAM (4GB/core, Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz).
 - 20 with 16 cores / 64 GB RAM (4GB/core, Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz).
