@@ -42,12 +42,10 @@ the academic superiors of the culpable party are liable to be consulted.
 
 Accounts on Noether are in the first instance available to postgraduates
 and staff in the group, but subject to consideration, academic
-collaborators on Campus or beyond may also be eligible. Postgraduates
-requesting an account *must be sponsored by their Supervisor or PI*.
-Accounts are requested by sending an email to the
-[BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk) mailing list. Requests will usually be
-actioned within one working day of receipt. There is no charge for an
-account.
+collaborators on Campus or beyond may also be eligible.
+Accounts must be requested by the supervisor or line manager by filling in
+and submitting the account request form.
+There is no charge for an account.
 
 ### Home Directories ###
 
