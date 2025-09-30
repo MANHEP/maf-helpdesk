@@ -12,7 +12,7 @@ Manchester, but it is expected that all and any persons who are, or may
 become, affiliated with the group and who wish to use
 **Noether** shall have recourse to it before access is granted. It is not
 intended to be a technical description of, or instruction manual for
-**Noether** smallcaps}: please see the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md) for the the latter.
+**Noether**: please see the [FAQ](https://manhep.github.io/maf-helpdesk/noether_faq/) for the the latter.
 
 ### Terminology ###
 
@@ -53,7 +53,8 @@ account.
 
 Users are granted a *home directory* with a small initial selection of
 'dotfiles' and sample HTCondor scripts: this directory
-are subject to a *quota* as specified in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md); if you require additional capacity, you must request it via [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk).
+are subject to a *quota* as specified in the [FAQ](https://manhep.github.io/maf-helpdesk/noether_faq/
+); if you require additional capacity, you must request it via [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk).
 
 ### Expiry of Accounts ###
 
@@ -97,7 +98,7 @@ work-nodes have been set aside for this purpose.
 ### Obtaining Support ###
 
 If the answer to your support request is not
-contained in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md) then please send an email to [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk)
+contained in the [FAQ](https://manhep.github.io/maf-helpdesk/noether_faq/) then please send an email to [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk)
 This mailing list is read by the cluster's systems administrators: they should respond to
 queries within one working day.
 
@@ -107,4 +108,4 @@ These regulations have been approved by the Head of Group and IT Team,
 Particle Physics in the University of Manchester. Should additions or
 amendments transpire from time to time, they will be announced in the
 [BLACKETT-SUPPORT](mailto:blackett-support@listserv.manchester.ac.uk) mailing list, and this document will be
-updated accordingly, the current version being posted at the [present location](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_acceptable_use.md). 
+updated accordingly, the current version being posted at the [present location](https://manhep.github.io/maf-helpdesk/noether_acceptable_use/).
