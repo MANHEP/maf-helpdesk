@@ -8,7 +8,7 @@ The cluster currently consists of a login node, which can be accessed from the i
 
 ### Getting an Account and First Login ###
 
-As explained in the [FAQ](https://github.com/MANHEP/maf-helpdesk/blob/master/noether_faq.md), to request an account on Noether, please ask your supervisor/line manager to fill in the new account form. When your request is approved, you will be supplied out-of-band with an initial set of login credentials.
+As explained in the [FAQ](https://manhep.github.io/maf-helpdesk/noether_faq/), to request an account on Noether, please ask your supervisor/line manager to fill in the new account form. When your request is approved, you will be supplied out-of-band with an initial set of login credentials.
 
 Then to connect to Noether for the first time please ```ssh``` with your supplied username to ```noether.hep.manchester.ac.uk```. Please note that if you are connecting from off-Campus, apart from the CERN interactive system, you will need to install and initialise the [GlobalProtect VPN](https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/) tool provided by IT Services; the Research IT GP documentation may be useful concerning self-managed devices running [GNU/Linux](https://ri.itservices.manchester.ac.uk/restricted/offcampus/vpn-selfmanaged-linux-systems/), [MS Windows](https://ri.itservices.manchester.ac.uk/restricted/offcampus/self-managed-windows-devices/), or [OS X](https://ri.itservices.manchester.ac.uk/restricted/offcampus/self-managed-mac-os-x-devices/). On your *initial connection attempt the supplied password will need to be changed*, as in the following sample `ssh` session:
 ```
