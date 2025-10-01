@@ -19,6 +19,8 @@ https://vm107.hep.manchester.ac.uk/noetheruserrequest
 ```
 Note that the requester warrants that the new account holder agrees to the [acceptable use policy](../noether_acceptable_use/).
 
+As the form says, if changes need to be made to an existing account, e.g. an MPhys student becoming a postgrad, supervisors/managers should just email Blackett support.
+
 When the account has been created we will send you temporary password on Teams, and email to say so. There will be a prompt to change that password on the first SSH login to Noether. Note that you must change it before, for instance, using the user request form or any other non-SSH access.
 
 A3. **How many work-nodes does Noether have and what are their memory and CPU specifications?**
