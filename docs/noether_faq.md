@@ -91,7 +91,7 @@ More details are given in [here](noether_basic_usage.md)
 
 C4. **How do I submit a batch job into the HTCondor scheduler queue?**
 
-A simple example of the use of HTCondor to run batch jobs is given [ibid](noether_basic_usage.md)
+A simple example of the use of HTCondor to run batch jobs is given [here](noether_basic_usage.md)
 
 C5. **How do I use the GPU-enabled work-nodes?**
 
