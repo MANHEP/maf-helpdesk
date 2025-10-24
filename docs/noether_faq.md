@@ -15,7 +15,7 @@ A2. **How do I request an account on Noether?**
 Accounts have to be requested by your academic supervisor or line manager.
 They need to fill in the form at
 
-https://vm107.hep.manchester.ac.uk/noetheruserrequest
+[https://vm107.hep.manchester.ac.uk/noetheruserrequest](https://vm107.hep.manchester.ac.uk/noetheruserrequest)
 
 Note that the requester warrants that the new account holder agrees to the [acceptable use policy](../noether_acceptable_use/).
 
