@@ -17,8 +17,9 @@ They need to fill in the form
 
 [https://vm107.hep.manchester.ac.uk/noetheruserrequest](https://vm107.hep.manchester.ac.uk/noetheruserrequest)
 
-Access is only available from the campus network directly, via
-GlobalProtect, or from the CERN interactive system.
+Access to the form (and Noether login) is only available from the
+campus network directly, via GlobalProtect, or from the CERN
+interactive system.
 
 Note that the requester warrants that the new account holder agrees to the [acceptable use policy](../noether_acceptable_use/).
 
