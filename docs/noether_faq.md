@@ -89,9 +89,9 @@ In this way you may scale up your workflow, conduct parameterised 'sweeps' and s
 
 C3. **How do I start an interactive session on a work-node?**
 
-In brief, one issues `condor_submit -i` or simply `qrsh` to be 'teleported' to a work-node of Noether
+In brief, one issues `condor_submit -i` to be 'teleported' to a work-node of Noether
 (a subset of work-nodes has been set aside for interactive sessions).
-More details are given in [here](noether_basic_usage.md)
+More details are given in [here](noether_basic_usage.md#interactive-sessions)
 
 C4. **How do I submit a batch job into the HTCondor scheduler queue?**
 
@@ -99,8 +99,8 @@ A simple example of the use of HTCondor to run batch jobs is given [here](noethe
 
 C5. **How do I use the GPU-enabled work-nodes?**
 
-That is very straightforward: for interactive sessions simply add `qrsh request_gpus=1` to your `qrsh` invocation.
-For batch jobs you may add `request_gpus=[1-3]` to either your `qsub` invocation or the corresponding `.sub` file for the job (the current batch GPU nodes have three such processors).
+That is very straightforward: for interactive sessions simply add `request_gpus=1` to your `condor_submit -i` invocation.
+For batch jobs you may add `request_gpus=[1-3]` to either your `condor_submit` invocation or the corresponding submission file for the job (the current batch GPU nodes have three such processors).
 
 ### Section D. Resource Limits ###
 <!-- Writeme! -->
