@@ -34,7 +34,7 @@ The next time you `ssh` to Noether, entering the new password will give you a sh
 
 ### Interactive Sessions ###
 
-Use of the login node for heavy computational work is *prohibited*: users are expected to conduct intensive interactive shell sessions on the cluster's work-nodes, some of which have been set aside for this purpose. Now *directly ssh-ing to a work-node is not permitted*: users should issue the command `condor_submit -i` or the alias `qrsh`  as in the following example:
+Use of the login node for heavy computational work is *prohibited*: users are expected to conduct intensive interactive shell sessions on the cluster's work-nodes, some of which have been set aside for this purpose. Now *directly ssh-ing to a work-node is not permitted*: users should issue the command `condor_submit -i` as in the following example:
 
 ```
     $ condor_submit -i  getenv=True
