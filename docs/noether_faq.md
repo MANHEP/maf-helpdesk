@@ -12,7 +12,7 @@ users can run batch or interactive sessions on the cluster.
 
 A2. **How do I request an account on Noether?**
 
-Accounts have to be requested by your academic supervisor or line manager.
+Accounts have to be requested by your academic supervisor or line manager, who needs a Noether account to do so; the login account and password are for Noether, not central ones.
 They need to fill in the form
 
 [https://vm107.hep.manchester.ac.uk/noetheruserrequest](https://vm107.hep.manchester.ac.uk/noetheruserrequest)
